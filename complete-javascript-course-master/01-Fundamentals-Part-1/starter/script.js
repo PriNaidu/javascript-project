@@ -23,8 +23,6 @@
 
 // js =23;
 // console.log(typeof js);
-
-
 // let yr;
 // console.log(yr);
 // console.log(typeof yr);
@@ -112,28 +110,47 @@ console.log (now - 1991 >= now - 2018);
 // const sentenceNew = `I'm ${firstName}, a ${currentYear - Birthyear} years old ${job}!`;
 // console.log(sentenceNew);
 
-const age = 15;
-const yearsleft = 18 - age;
+// const age = 15;
+// const yearsleft = 18 - age;
 
-if(age >= 18){
-    console.log("Pri is ready to ride! 🚵");
-}else{
-    console.log(`no you're not ready you are still ${age}, you have to wait ${yearsleft} years.`)
-}
-
-
-const birthyear = 1991;
-let century;
-
-if(birthyear <= 2000){
-     century = 20;
-} else {
-     century = 21;
-}
-console.log(century);
+// if(age >= 18){
+//     console.log("Pri is ready to ride! 🚵");
+// }else{
+//     console.log(`no you're not ready you are still ${age}, you have to wait ${yearsleft} years.`)
+// }
 
 
+// const birthyear = 1991;
+// let century;
 
+// if(birthyear <= 1800){
+//      century = 20;
+// } else {
+//      century = 21;
+// }
+// console.log(century);
+
+// const yr = "2023";
+// console.log(yr);
+// console.log(typeof yr);
+// console.log(Number(yr),yr);
+// console.log("Priyanka");
+// console.log(typeof(`Priyanka`));
+// console.log(typeof (true));
+// console.log(typeof(23), typeof("23"));
+// console.log(String(123), Number("Priyanka"));
+
+// type coercipon
+// console.log('I am ' + (String(23)) + (Number('years old')));
+// console.log(`I am ` + '23 ' + "years old");
+
+// console.log('23' - '10' - 3);
+// console.log('22' / '2');
+
+// let n = '2' + 4;
+// console.log(n);
+// n = n - 10;
+// console.log(n);
 
 
 

@@ -154,11 +154,31 @@ console.log (now - 1991 >= now - 2018);
 
 
 
+// falsely turly
+// console.log(Boolean(0));   //false
+// console.log(Boolean(1));   //true
+// console.log(Boolean(undefined)); //false
+// console.log(Boolean('Jonas')); //true
+// console.log(Boolean(0));  
+// falsely truly
+
+
+// let money ;
+// console.log("HEy YOu yes you!!!")
+// if (money){
+//     console.log("Dont spend it all!!");
+// }else{
+//     console.log("You Better get a job");
+// }
+
+const favNo = Number(prompt("Whats your fav no.?"));
+console.log(favNo);
+console.log(typeof favNo);
 
 
 
-
-
-
+if (favNo === 23) {
+console.log('Cool! 23 is amazing');
+}
 
 

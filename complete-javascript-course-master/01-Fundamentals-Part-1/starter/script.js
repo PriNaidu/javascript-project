@@ -171,14 +171,124 @@ console.log (now - 1991 >= now - 2018);
 //     console.log("You Better get a job");
 // }
 
-const favNo = Number(prompt("Whats your fav no.?"));
-console.log(favNo);
-console.log(typeof favNo);
+// const favNo = Number(prompt("Whats your fav no.?"));
+// console.log(favNo);
+// console.log(typeof favNo);
 
 
 
-if (favNo === 23) {
-console.log('Cool! 23 is amazing');
-}
+// if (favNo === 23) {
+// console.log('Cool! 23 is amazing');
+// }
+
+// const hasDrivingLicense = true; //A
+// const hasGoodVision = true;//B
+
+// console.log(hasDrivingLicense && hasGoodVision);
+// console.log(hasDrivingLicense || hasGoodVision);
+// console.log(!hasDrivingLicense);
+// console.log(!hasGoodVision);
 
 
+// const shouldDrive = hasDrivingLicense && hasGoodVision;
+// if(shouldDrive){
+//     console.log("Sarah is not able to drive.")
+// }else{
+//     console.log("Sarah is able to drive...");
+// }
+
+// const isTired = false; 
+// console.log(hasDrivingLicense || hasGoodVision || !isTired);
+
+
+// const shouldDrive = hasDrivingLicense && hasGoodVision && !isTired;
+// if(shouldDrive){
+//     console.log("Sarah is not able to drive.")
+// }else{
+//     console.log("Sarah is able to drive...");
+// }
+
+// const scoreDolphins = (96 + 108 + 89);
+// const scoreKoalas = (88 + 91 + 110);
+
+// console.log(`Dolphins: ${scoreDolphins}`);
+// console.log(`Koalas: ${scoreKoalas}`);
+
+// const avgDolphins = (scoreDolphins/3);
+// const avgKoalas = (scoreKoalas/3);
+// console.log(`Average Score of Dolphins: ${avgDolphins}`);
+// console.log(`Average Score of Koalas: ${avgKoalas}`);
+
+
+
+
+
+
+// let a = Number(prompt("Enter first no."));
+// console.log(`a = ${a}`);
+// let b = Number(prompt("Enter second no."));
+// console.log(`b = ${b}`);
+// // a = a + b;
+// // b = a - b;
+// // a = a - b;
+// console.log("After swapping");
+// console.log(`a = ${a}`);
+// console.log(`b = ${b}`);
+
+// Switch statement
+// const day = 'monday';
+
+// switch (day){
+//     case 'monday':
+//         console.log("Monday: Plan course structure");
+//         console.log('Go to coding meetup');
+//         // break;
+//     case 'tuesday':
+//         console.log("TOday is tuesday");
+//         break;
+//     case 'wednesday':
+    
+//     case 'thursday':
+//         console.log("today is thursday");
+//         break;
+//     case 'friday':
+//     console.log("Today is friday");
+//     break;
+//     case 'saturday':
+//         console.log("Today is saturday");
+//         break;
+//         case 'saturday':
+//      case 'sunday':
+//         console.log("Today is sunday");
+//         break;
+//         default:
+//             console.log("not  valid!!!");
+
+// }
+// 3 + 4
+// 1991
+// true && false && !false
+
+// if(23 > 10){
+//     const str = '23 is bigger';
+
+// }
+// conditional operator
+// const age = 23;
+// const drink = age >= 18 ? "eligible" : "Not eligible";
+// console.log(drink);
+// let drink2;
+// if ( age >= 18){
+//     drink2= "wine";
+// }
+// else{
+//     drink2= "water";
+// }
+// console.log(drink2);
+
+// console.log(`I like to drink ${age>=18 ? 'wine' : 'water'}`);
+
+// const bill = 275;
+//  const tip = bill <= 300 && bill >= 50 ? (15/100)*bill : (20/100)*bill;
+// console.log(`The bill was ${bill}, the tip was ${tip} and the value is ${bill 
+// + tip}`);
